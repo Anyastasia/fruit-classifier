@@ -26,7 +26,6 @@
   }
  
   const between = (x, min, max) => {
-    console.log(x => min && x <= max)
     return (x >= min && x <= max)
   }
   const styleConfidence = (confidence) => {
@@ -42,7 +41,6 @@
     textStyle = "red"
   }
 
-  console.log(textStyle)
   return textStyle
   }
 </script>
